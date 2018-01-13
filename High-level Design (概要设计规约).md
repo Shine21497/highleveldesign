@@ -603,7 +603,7 @@ collect/download
 ```
 ---
 ---
-### *collect//file/exist*   
+### *collect/file/exist*   
 
 #### Description (接口描述)
 
@@ -634,7 +634,7 @@ Get exist message of given file name
 #### Request Sample (示例请求)
 
 ```
-collect//file/exist
+collect/file/exist
 ```
 
 #### Response Sample (示例结果)
