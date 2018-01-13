@@ -8,20 +8,20 @@ Here's the UI design of the project
 
 ## Business Architecture (业务架构)
 
-The business architecture outline the key components in each layers of the project systems. Here is a sample:
+The business architecture outline the key components in each layers of the project systems. Here is the diagram:
 
 ![business architecture](images/outline_design/Business_Architecture.png)
 
 
 ## Technology Architecture (技术架构)
 
-The architecture of the technology stacks (coding language, frameworks, libraries, styles, etc) used in the project. Here gives an example:
+The architecture of the technology stacks (coding language, frameworks, libraries, styles, etc) used in the project. Here is the diagram:
 
 ![technology architecture](images/outline_design/Technology_Architecture.png)
 
 ## Deployment Topology (部署结构)
 
-Deployment Topology shows how the whole project is deployed in the physical environment, including servers, VMs/containers, networks, key components, etc. A overview picture is required to show the topology. Here is a sample picture of Deployment Topology:
+Deployment Topology shows how the whole project is deployed in the physical environment, including servers, VMs/containers, networks, key components, etc. A overview picture is required to show the topology. Here is the picture
 
 ![deployment topology](images/outline_design/Deployment_Topology.png)
 
@@ -31,13 +31,13 @@ Deployment Topology shows how the whole project is deployed in the physical envi
 
 An Entity-Relation Diagram is required to show the concepts in the project and their relations. And for each entity and realtion, there should be a description after the diagram.
 
-Here gives a sample E-R diagram:
+ E-R diagram:
 
-![ER sample](images/detailed_design/Entity_Relation_Design.png)
+![ER sample](images/outline_design/Entity_Relation_Design.png)
 
 ### Database Design (数据库设计)
 
-According to the Entity-Realtion Design, the detailed database design for entities and relations should be listed as tables. Here gives a table template:
+According to the Entity-Realtion Design, the detailed database design for entities and relations should be listed as tables. 
 
 **Table: User**
 
@@ -261,7 +261,7 @@ advance/createTask
 ```
 {
   "code" : true,
-  "message" : "新建项目成功",
+  "message" : "新建任务成功",
   "project_id" : 2,
   "newTask" :{task_id:1,task_name:"123",create_time:2018-01-09 21:40:09}
 
@@ -317,7 +317,7 @@ advance/uploadFile
 
 #### Description (接口描述)
 
-Change thr config of the task
+Change the config of the task
 
 | | |
 |-|-|
@@ -359,7 +359,7 @@ advance/task_config
 
 #### Description (接口描述)
 
-Change thr config of the task
+Get the config of the task
 
 | | |
 |-|-|
@@ -440,7 +440,7 @@ collect/clues
 
 #### Description (接口描述)
 
-Collect data with the clue pattern and Ajax flip
+Collect data with the single pattern and Ajax flip
 
 | | |
 |-|-|
@@ -565,7 +565,7 @@ progress/status
 
 #### Description (接口描述)
 
-Get the progress of all projects
+Get the download message of the given url
 
 | | |
 |-|-|
@@ -607,7 +607,7 @@ collect/download
 
 #### Description (接口描述)
 
-Get the progress of all projects
+Get exist message of given file name
 
 | | |
 |-|-|
