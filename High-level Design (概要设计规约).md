@@ -10,7 +10,7 @@ Here's the UI design of the project
 
 The business architecture outline the key components in each layers of the project systems. Here is a sample:
 
-![business architecture](images/outline_design/Business_Architecture.png)
+![business architecture](images/outline_design/Business Architecture.png)
 
 
 ## Technology Architecture (技术架构)
