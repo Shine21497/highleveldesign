@@ -10,20 +10,20 @@ Here's the UI design of the project
 
 The business architecture outline the key components in each layers of the project systems. Here is a sample:
 
-![business architecture](images/outline_design/Business Architecture.png)
+![business architecture](images/outline_design/Business_Architecture.png)
 
 
 ## Technology Architecture (技术架构)
 
 The architecture of the technology stacks (coding language, frameworks, libraries, styles, etc) used in the project. Here gives an example:
 
-![technology architecture](images/outline_design/Technology Architecture.png)
+![technology architecture](images/outline_design/Technology_Architecture.png)
 
 ## Deployment Topology (部署结构)
 
 Deployment Topology shows how the whole project is deployed in the physical environment, including servers, VMs/containers, networks, key components, etc. A overview picture is required to show the topology. Here is a sample picture of Deployment Topology:
 
-![deployment topology](images/outline_design/Deployment Topology.png)
+![deployment topology](images/outline_design/Deployment_Topology.png)
 
 ## Data Models (数据建模)
 
@@ -33,7 +33,7 @@ An Entity-Relation Diagram is required to show the concepts in the project and t
 
 Here gives a sample E-R diagram:
 
-![ER sample](images/detailed_design/Entity-Relation Design.png)
+![ER sample](images/detailed_design/Entity_Relation_Design.png)
 
 ### Database Design (数据库设计)
 
